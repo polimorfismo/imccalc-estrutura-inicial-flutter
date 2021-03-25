@@ -6,17 +6,17 @@ class CalculadoraIMC extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PaginaPrincipal(),
+      home: TelaPrincipal(),
     );
   }
 }
 
-class PaginaPrincipal extends StatefulWidget {
+class TelaPrincipal extends StatefulWidget {
   @override
-  _PaginaPrincipalState createState() => _PaginaPrincipalState();
+  _TelaPrincipalState createState() => _TelaPrincipalState();
 }
 
-class _PaginaPrincipalState extends State<PaginaPrincipal> {
+class _TelaPrincipalState extends State<TelaPrincipal> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
